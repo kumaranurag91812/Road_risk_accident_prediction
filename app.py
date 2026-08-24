@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-MODEL_PATH = "/kaggle/working/road_accident_risk_model.pkl"
+MODEL_PATH = "road_accident_risk_model.pkl"
 
 model = joblib.load(MODEL_PATH)
 
